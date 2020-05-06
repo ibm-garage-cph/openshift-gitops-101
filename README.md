@@ -129,7 +129,7 @@
 - Access the url using `curl`
   
     ```bash
-    curl "$APP_URL/greeting?name=John"
+    curl "$APP_URL/greeting?name=Carlos"
     ```
 
     ```json
