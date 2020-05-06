@@ -6,7 +6,6 @@ metadata:
   labels:
     chart: cloudnativesampleapp-1.0.0
   name: cloudnative-sample
-  namespace: default
 spec:
 #   host: cloudnative-sample-default.apps-crc.testing
   port:
