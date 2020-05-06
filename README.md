@@ -18,9 +18,15 @@
 
 ![step1](/images/step1.2.png)
 
-## 2. Wait until installed
+## 2. Check installation
 
-Normally a minute or two until installation is complete. A good indication is when the pods in the `argocd` namespace are finalized and stable (1/1)
+1. Normally it takes a minute or two until the installation is complete. A good indication is when the pods in the `argocd` namespace are stable (1/1)
+
+2. To enable full cluster admin access on OpenShift, run the following command. This step is generally optional but recommended for this exercise.
+
+    ```bash
+    oc adm policy add-cluster-role-to-user cluster-admin -z argocd-application-controller -n argocd
+    ```
 
 ## 3. Enable the ArgoCD UI
 
