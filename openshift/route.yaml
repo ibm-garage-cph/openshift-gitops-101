@@ -5,7 +5,7 @@ metadata:
   annotations:
   labels:
     chart: cloudnativesampleapp-1.0.0
-  name: cloudnative-sample-change
+  name: cloudnative-sample-change2
 spec:
   port:
     targetPort: 9080
