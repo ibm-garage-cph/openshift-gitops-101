@@ -23,11 +23,6 @@ spec:
         ports:
           - containerPort: 9080
             name: http
-        readinessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 9080
-          initialDelaySeconds: 60
         resources:
           requests:
             cpu: 200m
