@@ -26,6 +26,7 @@
 
     ```bash
     oc adm policy add-cluster-role-to-user cluster-admin -z argocd-application-controller -n argocd
+    oc adm policy add-cluster-role-to-user cluster-admin -z argocd-server -n argocd
     ```
 
 ## 3. Enable the ArgoCD UI
